@@ -10,7 +10,7 @@ return {
 
 		lint.linters_by_ft = {
 			go = { "golangcilint" },
-			python = { "pyright" },
+			python = { "ruff" },
 			javascript = { "eslint_d" },
 			typescript = { "eslint_d" },
 			javascriptreact = { "eslint_d" },
