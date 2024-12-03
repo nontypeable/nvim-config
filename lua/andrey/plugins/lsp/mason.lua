@@ -37,7 +37,6 @@ return {
 		-- mason-lspconfig installs the following language servers
 		mason_lspconfig.setup({
 			ensure_installed = {
-				"pyright", -- python language server
 				"gopls", -- golang language server
 				"ts_ls", -- js & ts language server
 			},
@@ -50,7 +49,7 @@ return {
 				"golines", -- go formatter for long lines
 				"golangci-lint", -- go linter
 
-				"black", -- python formatter
+				"mypy", -- python type checker
 				"pylint", -- python linter
 
 				"prettier", -- formatter for js and other languages

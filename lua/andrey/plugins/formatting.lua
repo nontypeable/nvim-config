@@ -10,7 +10,7 @@ return {
 		conform.setup({
 			formatters_by_ft = {
 				go = { "gofmt", "goimports", "golines" },
-				python = { "black" },
+				python = { "mypy" },
 				markdown = { "prettier" },
 				json = { "prettier" },
 				yaml = { "prettier" },
